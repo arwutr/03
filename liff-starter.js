@@ -32,10 +32,10 @@ function initializeApp(data) {
           template: {
              type: "image_carousel",
              columns: [{
-                 imageUrl: "https://stickershop.line-scdn.net/stickershop/v1/sticker/"+sid+"/IOS/sticker_popup.png",
+                 imageUrl: "https://stickershop.line-scdn.net/stickershop/v1/sticker/123456/IOS/sticker_popup.png",
                  action: {
                      type: "uri",
-                     uri: "line://shop/sticker/detail/"+pkg}}
+                     uri: "line://shop/sticker/detail/123}}
                           ]
                         }
         }]).then(function () {
