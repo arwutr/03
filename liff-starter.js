@@ -25,7 +25,7 @@ function initializeApp(data) {
     });
 
     // sendMessages1
-    document.getElementById('sendmessagebutton1').addEventListener('click', function () {
+    document.getElementById('sendmessagebutton5').addEventListener('click', function () {
        liff.sendMessages([{
           type: "template",
           altText: "Sticker",
