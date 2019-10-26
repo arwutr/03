@@ -25,23 +25,52 @@ function initializeApp(data) {
     });
 
     // sendMessages1
-    document.getElementById('sendmessagebutton5').addEventListener('click', function () {
-       liff.sendMessages([{
-          type: "template",
-          altText: "Sticker",
+    document.getElementById('sendmessagebutton1').addEventListener('click', function () {
+        liff.sendMessages([{
+            type: 'template',
+          altText: 'Sticker',
           template: {
-             type: "image_carousel",
+             type: 'image_carousel',
              columns: [{
-                 imageUrl: "https://stickershop.line-scdn.net/stickershop/v1/sticker/123456/IOS/sticker_popup.png",
+                 imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/159360750/IOS/sticker_popup.png',
                  action: {
-                     type: "uri",
-                     uri: "line://shop/sticker/detail/123}}
+                     type: 'uri',
+                     uri: 'line://shop/sticker/detail/13561'}}
                           ]
                         }
         }]).then(function () {
             liff.closeWindow();
         });
     });
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     // get access token
     document.getElementById('getaccesstoken').addEventListener('click', function () {
