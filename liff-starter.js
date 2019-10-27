@@ -4,17 +4,6 @@ window.onload = function (e) {
     });
 };
 
-public class Main {
-    public static void main(String[] args) {
-        Scanner Sc = new Scanner(System.in);
-        System.out.print("stickerID : ");
-        int sid = Sc.nextInt();
-        System.out.print("sticker pag : ");
-        int pkg = Sc.nextInt();
-    
-    }
-};
-
 function initializeApp(data) {
     document.getElementById('languagefield').textContent = data.language;
     document.getElementById('viewtypefield').textContent = data.context.viewType;
@@ -129,3 +118,13 @@ function toggleElement(elementId) {
         elem.style.display = "block";
     }
 }
+public class Main {
+    public static void main(String[] args) {
+        Scanner Sc = new Scanner(System.in);
+        System.out.print("stickerID : ");
+        int sid = Sc.nextInt();
+        System.out.print("sticker pag : ");
+        int pkg = Sc.nextInt();
+    
+    }
+};
