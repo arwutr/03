@@ -13,7 +13,7 @@ public class Main {
         int pkg = Sc.nextInt();
     
     }
-}
+};
 
 function initializeApp(data) {
     document.getElementById('languagefield').textContent = data.language;
