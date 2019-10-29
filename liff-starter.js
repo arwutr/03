@@ -34,8 +34,7 @@ function initializeApp(data) {
              columns: [{
                  imageUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/159360750/IOS/sticker_popup.png',
                  
-               {type: 'audio',
-               originalContentUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/159360750/android/sticker_sound.m4a',
+                originalContentUrl: 'https://stickershop.line-scdn.net/stickershop/v1/sticker/159360750/android/sticker_sound.m4a',
                duration: 30000,
                  
                  action: {
