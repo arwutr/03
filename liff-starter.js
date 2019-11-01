@@ -436,7 +436,7 @@ function my9Function() {
   document.getElementById('al3temp').addEventListener('click', function () {
         liff.sendMessages([{
     "type": "template",
-    "altText": userDisplayName + "Sent Sticker",
+    "altText": "Sent Sticker",
     "template": {
       "type": "image_carousel",
       "columns": [
