@@ -1,83 +1,14 @@
-<!DOCTYPE html>
 <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Untitled Document</title>
+
+<script type="text/javascript" src="file.js "></script>
+
+</head>
 <body>
 
-<input type="text" name="urllink" id="my9Function" onkeyup="my9Function()">
-<p id="my9Function"></p>
+<input name="Clear" type="button" id="Clear" value="Clear" onClick="clear_frm_2()"  >
 
-<script>
-function my9Function() {
-  var k = document.getElementById("urllink").value;
-  var l = document.getElementById("url1link").value;
-  document.getElementById('al1temp').addEventListener('click', function () {
-        liff.sendMessages([{
-    "type": "template",
-    "altText": "Sticker info",
-    "template": {
-      "type": "image_carousel",
-      "columns": [
-        {
-          "imageUrl": "https://sdl-stickershop.line.naver.jp/stickershop/v1/sticker/"+k+"/IOS/sticker@2x.png",
-          "action": {
-            "type": "uri",
-            "uri": "line://shop/detail/"+l
-          }
-        }
-      ]
-    }
-  }]).then(function () {
-            liff.closeWindow();
-        }).catch(function (error) {
-            window.alert("Error sending message: " + error);
-        });
-    }); 
-  document.getElementById('al2temp').addEventListener('click', function () {
-        liff.sendMessages([{
-    "type": "template",
-    "altText": "Sticker info",
-    "template": {
-      "type": "image_carousel",
-      "columns": [
-        {
-          "imageUrl": "https://sdl-stickershop.line.naver.jp/stickershop/v1/sticker/"+k+"/IOS/sticker_animation@2x.png",
-          "action": {
-            "type": "uri",
-            "uri": "line://shop/detail/"+l
-          }
-        }
-      ]
-    }
-  }]).then(function () {
-            liff.closeWindow();
-        }).catch(function (error) {
-            window.alert("Error sending message: " + error);
-        });
-    }); 
-  document.getElementById('al3temp').addEventListener('click', function () {
-        liff.sendMessages([{
-    "type": "template",
-    "altText": "Sticker info",
-    "template": {
-      "type": "image_carousel",
-      "columns": [
-        {
-          "imageUrl": "https://sdl-stickershop.line.naver.jp/stickershop/v1/sticker/"+k+"/IOS/sticker_popup.png",
-          "action": {
-            "type": "uri",
-            "uri": "line://shop/detail/"+l
-          }
-        }
-      ]
-    }
-  }]).then(function () {
-            liff.closeWindow();
-        }).catch(function (error) {
-            window.alert("Error sending message: " + error);
-        });
-    }); 
-<button onclick="my9Function()">Click me</button>
-}	
-	
-</script>
 </body>
 </html>
