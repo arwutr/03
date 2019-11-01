@@ -392,7 +392,7 @@ function my9Function() {
   document.getElementById('al1temp').addEventListener('click', function () {
         liff.sendMessages([{
     "type": "template",
-    "altText": "Sticker info",
+    "altText": "Sent Sticker",
     "template": {
       "type": "image_carousel",
       "columns": [
@@ -414,7 +414,7 @@ function my9Function() {
   document.getElementById('al2temp').addEventListener('click', function () {
         liff.sendMessages([{
     "type": "template",
-    "altText": "Sticker info",
+    "altText": "Sent Sticker",
     "template": {
       "type": "image_carousel",
       "columns": [
@@ -436,7 +436,7 @@ function my9Function() {
   document.getElementById('al3temp').addEventListener('click', function () {
         liff.sendMessages([{
     "type": "template",
-    "altText": "Sticker info",
+    "altText": "Sent Sticker",
     "template": {
       "type": "image_carousel",
       "columns": [
