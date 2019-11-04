@@ -455,6 +455,32 @@ function my9Function() {
             window.alert("Error sending message: " + error);
         });
     }); 
+  document.getElementById('al4temp').addEventListener('click', function () {
+        liff.sendMessages([{
+    "type": "template",
+    "altText": "Sent Sticker",
+    "template": {
+      "type": "image_carousel",
+      "columns": [
+        {
+          "imageUrl": ""+k,
+          "action": {
+            "type": "uri",
+            "uri": "line://shop/detail/999"
+          }
+        }
+      ]
+    }
+  }]).then(function () {
+            liff.closeWindow();
+        }).catch(function (error) {
+            window.alert("Error sending message: " + error);
+        });
+    }); 	
+	
+	
+	
+	
 }
 function my67Function() {
     var x = document.getElementById("ffmelody").value;
