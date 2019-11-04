@@ -463,7 +463,7 @@ function my9Function() {
       "type": "image_carousel",
       "columns": [
         {
-          "imageUrl": "https://"+k,
+          "imageUrl": ""+k,
           "action": {
             "type": "uri",
             "uri": "line://shop/detail/"+l
