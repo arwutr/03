@@ -488,7 +488,7 @@ function my9Function() {
           "imageUrl": ""+k,
           "action": {
             "type": "uri",
-            "uri": ""+l,
+            "uri": ""+l
           }
         }
       ]
