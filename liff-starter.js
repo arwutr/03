@@ -477,7 +477,28 @@ function my9Function() {
             window.alert("Error sending message: " + error);
         });
     }); 	
-	
+  document.getElementById('al5temp').addEventListener('click', function () {
+        liff.sendMessages([{
+    "type": "template",
+    "altText": "Sent Sticker",
+    "template": {
+      "type": "image_carousel",
+      "columns": [
+        {
+          "imageUrl": ""+k,
+          "action": {
+            "type": "uri",
+            "uri": ""+l
+          }
+        }
+      ]
+    }
+  }]).then(function () {
+            liff.closeWindow();
+        }).catch(function (error) {
+            window.alert("Error sending message: " + error);
+        });
+    }); 	
 	
 	
 	
