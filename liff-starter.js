@@ -478,7 +478,28 @@ function my9Function() {
         });
     }); 	
 	
-	
+  document.getElementById('al5temp').addEventListener('click', function () {
+        liff.sendMessages([{
+    "type": "template",
+    "altText": "Sent Sticker",
+    "template": {
+      "type": "image_carousel",
+      "columns": [
+        {
+          "imageUrl": "https://sdl-stickershop.line.naver.jp/stickershop/v1/sticker/"+Math.floor((Math.random() * 14735469) + 2148)+"/android/sticker.png",
+          "action": {
+            "type": "uri",
+            "uri": "https://line.me/R/app/1583925164-emW44MM7"
+          }
+        }
+      ]
+    }
+  }]).then(function () {
+            liff.closeWindow();
+        }).catch(function (error) {
+            window.alert("Error sending message: " + error);
+        });
+    }); 	
 	
 	
 }
