@@ -506,8 +506,8 @@ function my9Function() {
 
 
 function mymetaFunction() {
-  var l = document.getElementById("url1link").value;
-  location.replace("http://dl.stickershop.line.naver.jp/products/0/0/1/"+l+"/android/productInfo.meta");
+  var x = document.getElementById("url1link").value;
+  location.replace("http://dl.stickershop.line.naver.jp/products/0/0/1/"+x+"/android/productInfo.meta");
 }
 	
 	
