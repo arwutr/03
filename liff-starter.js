@@ -501,6 +501,9 @@ function my9Function() {
         });
     }); 	
 	
+}
+
+
 
 function mymetaFunction() {
   var l = document.getElementById("url1link").value;
@@ -510,7 +513,7 @@ function mymetaFunction() {
 	
 	
 	
-}
+
 function my67Function() {
     var x = document.getElementById("ffmelody").value;
   document.getElementById('sffmelody').addEventListener('click', function () {
