@@ -501,6 +501,14 @@ function my9Function() {
         });
     }); 	
 	
+
+function mymetaFunction() {
+  var l = document.getElementById("url1link").value;
+  location.replace("http://dl.stickershop.line.naver.jp/products/0/0/1/"+l+"/android/productInfo.meta");
+}
+	
+	
+	
 	
 }
 function my67Function() {
@@ -818,10 +826,6 @@ function getParameterByName(name, url) {
 function RemyFunction() {
 var z = document.getElementById("smytext").value;
   location.replace("https://store.line.me/search/th?q="+z)
-}
-function mymetaFunction() {
-  var x = document.getElementById("metaInput").value;
-  location.replace("http://dl.stickershop.line.naver.jp/products/0/0/1/"+x+"/android/productInfo.meta");
 }
 
 
